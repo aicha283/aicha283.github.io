@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: brown;
+	padding: 10px;
+}
+.header p {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.menu {
+	display: flex;
+}
+.menu img {
+	width: 20%
+}
+.menu ul {
+	list-style: none;
+	display: flex;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.menu ul li {
+	margin-right: 50px;
+	font-size: 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: brown;
+}
+.section img {
+	width: 100%;
+}
+.section h1 {
+	text-align: center;
+	margin-top: 30px;
+	color: brown;
+}
+.elements {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+.bor {
+	margin-top: 50px;
+	padding: 20px;
+	border: 5px solid brown;
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	height: 500px;
+	margin-bottom: 30px;
+}
+.bor img {
+	width: 85%;
+}
+.bor p {
+	font-weight: bold;
+	font-size: 25px;
+	color: brown;
+}
+.bor .njma {
+	width: 30%;
+}
+.bor:hover {
+	transform: translateY(-10px);
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.menu ul li a:hover {
+	background-color: pink;
+	font-style: italic;
+}
+input[type] {
+	color: brown;
+	border: 5px solid brown;
+	font-size: 30px;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: white;
+	float: right;
+}
